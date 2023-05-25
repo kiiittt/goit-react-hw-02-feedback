@@ -1,0 +1,50 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 140px;
+}
+
+.btns {
+  align-self: center;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn {
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  border: 1px dashed black;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 32px;
+}
+
+.statistic {
+  font-size: medium;
+  text-align: center;
+}
+
+.titles {
+  align-self: center;
+  width: 360px;
+  padding: 40px;
+  background-color: lightblue;
+}
+
+.notification {
+  align-self: center;
+  text-align: center;
+  width: 360px;
+  padding: 40px;
+  font-weight: bold;
+  background-color: lightgray;
+}
