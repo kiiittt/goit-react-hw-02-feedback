@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import {
-  FeedbackOptions,
-  Section,
-  Statistics,
-  Notification,
-} from './Feedback/Feedback';
+import { Statistics } from './Feedback/Feedback';
+import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
+import { Section } from './Section/Section';
+import { Notification } from './Notification/Notification';
 import css from './Feedback/Feedback.module.css';
 
 export class App extends Component {
